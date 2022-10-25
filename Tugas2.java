@@ -29,7 +29,16 @@ class Monster{
 class Kotak{
 	private Koin coin;
 	private Monster monsta;
-	public Koin(){
+	public Kotak(){
+		
+	}
+	public void addKoin(Koin c){
+		
+	}
+	public void addMonster(Monster m){
+		
+	}
+	public Koin getKoin(){
 		
 	}
 	
