@@ -44,6 +44,24 @@ class Kotak{
 	
 }
 class KotakPermainan{
+	private Kotak[] boardGame[];
+	private int jumKotak;
+	private int jumlahKoin;
+	private int jumlahMonster;
+	private int[] acakKoin[];
+	private int[] acakMonster[];
+	public KotakPermainan(int j, int jk, int jm){
+		
+	}
+	private void generateAcak(){
+		
+	}
+	private void inisialisasiKotak(){
+		
+	}
+	public int contain(int posisi){
+		
+	}
 	
 }
 class Katak{
