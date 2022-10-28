@@ -1,3 +1,4 @@
+
 /**
  * Kotak dapat terdiri dari 1 koin dan/atau 1 monster. Kotak juga
  * bisa tidak memiliki koin maupun monster. Koin dan monster dapat ditambahkan ke dalam kotak. Setiap
@@ -8,8 +9,6 @@ public class Kotak{
 	private Koin coin;
 	private Monster monsta;
 	public Kotak(){
-		coin=null;
-		monsta=null;
 	}
 	public void addKoin(Koin c){
 		this.coin=c;
@@ -38,6 +37,7 @@ public class Kotak{
 		return monsta != null;
 	}
 	/**
+	 * dibutuhkan untuk debugging.
 	 * @return mengembalikan koin jika koin ada dan monster sebaliknya.
 	 */
 	public String toString(){

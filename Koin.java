@@ -1,3 +1,4 @@
+
 /**
  * Kelas koin nantinya akan dipakai di kelas Kotak.
  * @author RIfa Faruqi

@@ -1,3 +1,4 @@
+
 /**
  * Kelas Monster nantinya akan dipakai di kelas Kotak.
  * @author RIfa Faruqi
@@ -17,7 +18,7 @@ public class Monster{
 	 * dan nama default adalah "Monster"
 	 */
 	public Monster(){
-		this.nilai=10;
+		this.nilai=-10;
 		this.nama="Monster";
 	}
 	/**
