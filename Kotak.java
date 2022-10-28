@@ -8,17 +8,31 @@
 public class Kotak{
 	private Koin coin;
 	private Monster monsta;
-	public Kotak(){
-	}
+	/**
+	 * method untuk set monster ke dalam kotak
+	 * @param c objek koin yang di passing.
+	 */
 	public void addKoin(Koin c){
 		this.coin=c;
 	}
+	/**
+	 * method untuk set monster ke dalam kotak
+	 * @param m objek monster yang di passing.
+	 */
 	public void addMonster(Monster m){
 		this.monsta=m;
 	}
+	/**
+	 * method untuk mengembalkan koin
+	 * @return coin mengembalikan coin
+	 */
 	public Koin getKoin(){
 		return this.coin;
 	}
+	/**
+	 * method untuk mengembalkan monster
+	 * @return monsta mengembalikan monsta
+	 */
 	public Monster getMonster(){
 		return this.monsta;
 	}
