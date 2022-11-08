@@ -3,7 +3,7 @@
  * Kelas Monster nantinya akan dipakai di kelas Kotak.
  * @author RIfa Faruqi
  */
-public class Monster{
+public class Monster implements Benda{
 	/**
 	 * private atribute daripada nilai.
 	 */
@@ -41,8 +41,18 @@ public class Monster{
 	 * Method accessor untuk mengembalikan nilai.
 	 * @return nilai dari monster
 	 */
+	@Override
 	public int getNilai(){
 		return nilai;
+	}
+
+	/**
+	 * Merupakan method mutator untuk mengubah nilai.
+	 * @param nilaibaru nilai baru yang ingin di beri kepada atribut nilai.
+	 */
+	@Override
+	public void setNilai(int nilaibaru){
+		this.nilai=nilaibaru;
 	}
 	/**
 	 * Method toString daripada kelas Monster

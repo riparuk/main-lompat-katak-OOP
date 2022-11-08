@@ -4,7 +4,7 @@
  * @author RIfa Faruqi
  */
 
-public class Koin{
+public class Koin implements Benda{
 	/**
 	 * private atribute daripada nilai.
 	 */
@@ -27,6 +27,7 @@ public class Koin{
 	 * Merupakan method accessor untuk mengembaikan nilai
 	 * @return nilai dari Koin.
 	 */
+	@Override
 	public int getNilai(){
 		return nilai;
 	}
@@ -34,6 +35,7 @@ public class Koin{
 	 * Merupakan method mutator untuk mengubah nilai.
 	 * @param nilaibaru nilai baru yang ingin di beri kepada atribut nilai.
 	 */
+	@Override
 	public void setNilai(int nilaibaru){
 		this.nilai=nilaibaru;
 	}
